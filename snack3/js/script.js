@@ -74,15 +74,12 @@ let zucchineArray = [
     },
 ];
 
-
+let totalWeight = 0;
 
 for (i=0 ; i<zucchineArray.length ; i++) {
-
+    totalWeight += zucchineArray[i].weight;
 }
 
 
 
-console.log();
-console.log();
-console.log();
-console.log();
+console.log(totalWeight);
