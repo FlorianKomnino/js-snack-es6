@@ -17,3 +17,23 @@ console.log(student);
 for (let property in student) {
     console.log(property);
 }
+
+let classListOfStudents = [
+    {
+        name : 'Giosualda',
+        surname : 'Ferretti',
+        age : '50',
+    },
+
+    {
+        name : 'Marco',
+        surname : 'Marchi',
+        age : '99',
+    },
+
+    {
+        name : 'Franchina',
+        surname : 'Ferretti',
+        age : '12',
+    }
+];
