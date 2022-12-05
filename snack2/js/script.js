@@ -14,6 +14,77 @@ let automobile = {
     alimentazione: '',
 }
 
+let carsArray = [
+    {
+        marca: 'audio',
+        modello: 'a8bre',
+        alimentazione: 'metano',
+    },
+
+    {
+        marca: 'benzai',
+        modello: 's8vento',
+        alimentazione: 'elettrico',
+    },
+
+    {
+        marca: 'senpai',
+        modello: 'sensei',
+        alimentazione: 'diesel',
+    },
+
+    {
+        marca: 'audio',
+        modello: 'a8bre',
+        alimentazione: 'metano',
+    },
+
+    {
+        marca: 'benzai',
+        modello: 's8vento',
+        alimentazione: 'elettrico',
+    },
+
+    {
+        marca: 'senpai',
+        modello: 'sensei',
+        alimentazione: 'diesel',
+    },
+
+    {
+        marca: 'audio',
+        modello: 'a8bre',
+        alimentazione: 'metano',
+    },
+
+    {
+        marca: 'benzai',
+        modello: 's8vento',
+        alimentazione: 'elettrico',
+    },
+
+    {
+        marca: 'senpai',
+        modello: 'sensei',
+        alimentazione: 'diesel',
+    },
+
+    {
+        marca: 'senpai',
+        modello: 'sensei',
+        alimentazione: 'diesel',
+    }
+];
+
+let benzina = [];
+let diesel = [];
+let gpl = [];
+let elettrico = [];
+let metano = [];
+
+for (key in carsArray[i]) {
+    
+}
 
 
 
