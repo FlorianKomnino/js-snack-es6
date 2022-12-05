@@ -13,3 +13,8 @@ let student = {
 }
 
 console.log(student);
+/*
+let classElement = document.getElementById('class');
+
+classElement.innerText = 
+*/
