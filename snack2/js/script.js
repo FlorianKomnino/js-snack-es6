@@ -82,10 +82,26 @@ let gpl = [];
 let elettrico = [];
 let metano = [];
 
-for (key in carsArray[i]) {
-    
+for (i=0 ; i<carsArray.length ; i++) {
+    for (key in carsArray[i]) {
+        if (carsArray[i].alimentazione = benzina) {
+            benzina.push(carsArray[i]);
+        } else if (carsArray[i].alimentazione = diesel){
+            diesel.push(carsArray[i]);
+        } else if (carsArray[i].alimentazione = gpl){
+            gpl.push(carsArray[i]);
+        } else if (carsArray[i].alimentazione = elettrico){
+            elettrico.push(carsArray[i]);
+        } else if (carsArray[i].alimentazione = metano){
+            metano.push(carsArray[i]);
+        }
+    }
 }
 
 
 
-console.log();
+console.log(benzina);
+console.log(diesel);
+console.log(gpl);
+console.log(benzina);
+console.log(elettrico);
