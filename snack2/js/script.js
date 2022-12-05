@@ -83,18 +83,16 @@ let elettrico = [];
 let metano = [];
 
 for (i=0 ; i<carsArray.length ; i++) {
-    for (key in carsArray[i]) {
-        if (carsArray[i].alimentazione = benzina) {
-            benzina.push(carsArray[i]);
-        } else if (carsArray[i].alimentazione = diesel){
-            diesel.push(carsArray[i]);
-        } else if (carsArray[i].alimentazione = gpl){
-            gpl.push(carsArray[i]);
-        } else if (carsArray[i].alimentazione = elettrico){
-            elettrico.push(carsArray[i]);
-        } else if (carsArray[i].alimentazione = metano){
-            metano.push(carsArray[i]);
-        }
+    const currentAuto = carsArray[i];
+    if (currentAuto.alimentazione === 'benzina'){
+    } else if (currentAuto.alimentazione === 'diesel'){
+        diesel.push(carsArray[i]);
+    } else if (currentAuto.alimentazione == 'gpl'){
+        gpl.push(carsArray[i]);
+    } else if (currentAuto.alimentazione == 'elettrico'){
+        elettrico.push(carsArray[i]);
+    } else if (currentAuto.alimentazione == 'metano'){
+        metano.push(carsArray[i]);
     }
 }
 
