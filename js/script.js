@@ -13,8 +13,7 @@ let student = {
 }
 
 console.log(student);
-/*
-let classElement = document.getElementById('class');
 
-classElement.innerText = 
-*/
+for (let property in student) {
+    console.log(property);
+}
