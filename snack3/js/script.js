@@ -80,6 +80,19 @@ for (i=0 ; i<zucchineArray.length ; i++) {
     totalWeight += zucchineArray[i].weight;
 }
 
+const averageWeight = totalWeight / zucchineArray.length;
 
+let totalLength = 0;
+
+
+for (i=0 ; i<zucchineArray.length ; i++) {
+    totalLength += zucchineArray[i].length;
+}
+
+const averageLength = totalLength / zucchineArray.length;
 
 console.log(totalWeight);
+console.log(averageWeight);
+
+console.log(totalLength);
+console.log(averageLength);
