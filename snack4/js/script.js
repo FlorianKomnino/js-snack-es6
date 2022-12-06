@@ -31,6 +31,14 @@ const soloMammiferi = animali.filter((elemento) => {
         return true;
     }
     return false;
-})
+});
 
-console.log(soloMammiferi)
+console.log(soloMammiferi);
+
+const nameModified = soloMammiferi.map((element) => {
+    element.nome = element.nome.toUpperCase();
+    element.nome = element.nome[1].toLowerCase
+    return element.nome;
+});
+
+console.log(nameModified);
