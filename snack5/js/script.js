@@ -19,47 +19,49 @@ let people = [
     {
         name: 'Pierino',
         surname: 'Patrupilli',
-        age: 91
+        age: 11
     },
     {
         name: 'Salvatauro',
         surname: 'Patrupilli',
-        age: 91
+        age: 28
     },
     {
         name: 'GiadaScript',
         surname: 'Patrupilli',
-        age: 91
+        age: 55
     },
     {
         name: 'Donatonni',
         surname: 'Patrupilli',
-        age: 91
+        age: 40
     },
     {
         name: 'Salvio',
         surname: 'Patrupilli',
-        age: 91
+        age: 33
     },
     {
         name: 'Checca',
         surname: 'Patrupilli',
-        age: 91
+        age: 1
     },
     {
         name: 'Tantania',
         surname: 'Patrupilli',
-        age: 91
+        age: 2048
     },
     {
         name: 'Bimbumbanksi',
         surname: 'Patrupilli',
-        age: 91
+        age: 100
     },
     {
         name: 'Uga',
         surname: 'Patrupilli',
-        age: 91
+        age: 88
     }
 ];
 
+let possibleDrivingLicense = people.filter((person) => person.age > 18);
+console.log(possibleDrivingLicense);
